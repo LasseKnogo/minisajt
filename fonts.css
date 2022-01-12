@@ -1,15 +1,67 @@
-.stil1{
-    color:grey;
-    font-size: 20px;
-    font-family: "Roboto Condensed", sans-serif;
-    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
+.stil1 {
+  color: grey;
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
     -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
 }
 
-.rubrik{
-    color:grey;
-    font-size: 30px;
-    font-family: "Roboto Condensed", sans-serif;
-    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
-    -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);  
+.rubrik {
+  color: grey;
+  font-size: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+}
+
+h2 {
+  animation: color-change 3s infinite;
+  text-align: center;
+  position: absolute;
+  font-size: 40px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+}
+
+@keyframes color-change {
+  0% {
+    color: rgb(60, 0, 116);
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    color: rgb(0, 255, 13);
+  }
+  75% {
+    color: yellow;
+  }
+  100% {
+    color: red;
+  }
+}
+
+.faktatext {
+  color: rgb(7, 0, 109);
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+}
+
+.formulärtext {
+  color: rgb(0, 109, 5);
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+}
+
+.submitext {
+  color: rgb(0, 109, 5);
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-shadow: -1px -1px 0 rgb(92, 92, 92), 1px -1px 0 rgb(92, 92, 92),
+    -1px 1px 0 rgb(92, 92, 92), 1px 1px 0 rgb(92, 92, 92);
 }
