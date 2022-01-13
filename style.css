@@ -4,7 +4,7 @@
 body {
   background: linear-gradient(-45deg, #8a8a8a, #494949, #8a8b8b, #494949);
   background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  animation: gradient 25s ease infinite;
   height: 95vh;
 }
 
@@ -88,6 +88,17 @@ select {
   box-sizing: border-box;
 }
 
+input[type="password"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
 input[type="submit"] {
   width: 100%;
   background-color: #525252;
@@ -120,14 +131,9 @@ input[type="text"]:focus {
   padding: 0;
 }
 
-.fa-snowflake {
-  font-size: 0px;
-  color: rgba(255, 255, 255, 0);
-}
-
 .falling {
   animation: fall 5s infinite;
-  display: block;
+  display: flex block;
   border: 3px solid rgb(0, 0, 0);
   border-radius: 50%;
 }
