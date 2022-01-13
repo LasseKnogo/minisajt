@@ -1,27 +1,27 @@
 .topnav {
-    background-color: rgb(145, 145, 145);
-    width: 100%;
-    height: 40px;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
-  .topnav a {
-    float: center;
-    color: #7e04a3;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 90%;
+  background-color: rgb(145, 145, 145);
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
 
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: red;
-  }
-  
-  .topnav a.active {
-    background-color: #ff0000;
-    color: rgb(255, 0, 0);
-  }
+.topnav a {
+  float: center;
+  color: #7e04a3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 90%;
+  transition: 0.3s;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: red;
+}
+
+.topnav a.active {
+  background-color: #ff0000;
+  color: rgb(255, 0, 0);
+}
