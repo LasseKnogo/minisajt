@@ -99,6 +99,17 @@ select {
   box-sizing: border-box;
 }
 
+input[type="email"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
 input[type="submit"] {
   width: 100%;
   background-color: #525252;
@@ -129,21 +140,27 @@ input[type="text"]:focus {
 * {
   margin: 0;
   padding: 0;
+  
 }
 
 .falling {
   animation: fall 5s infinite;
-  display: flex block;
+  display: flex;
   border: 3px solid rgb(0, 0, 0);
   border-radius: 50%;
+  position:absolute;
+  width: 100px;
+  height:100px;
+  margin-left:50%;
+  margin-right:50%;
 }
 
 @keyframes fall {
   50% {
-    transform: translateY(50vh) translateX(100vh) rotateX(60deg) rotateY(60deg);
+    transform: rotateX(60deg) rotateY(60deg);
   }
   100% {
-    transform: translateY(100vh) translateX(100vh) rotateX(-60deg)
+    transform: rotateX(-60deg)
       rotateY(-60deg);
   }
 }
